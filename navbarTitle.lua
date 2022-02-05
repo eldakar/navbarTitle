@@ -47,7 +47,7 @@ function navbarTitle:highlight_state()
   local str_navbartitle = ""
   local str_guard_state = self:print_guard(scripts.ui.states_window_nav_states.guard_state)
   local str_order_state = self:print_order(scripts.ui.states_window_nav_states.order_state)
-  str_navbartitle = "ZAS " .. str_guard_state .. " ROZ " .. str_order_state
+  str_navbartitle = "ROZ " .. str_order_state .. "   ZAS " .. str_guard_state
 
   setUserWindowTitle(scripts.ui.states_window_name, str_navbartitle)
 end
