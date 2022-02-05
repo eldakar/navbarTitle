@@ -17,7 +17,7 @@ end
 
 function navbarTitle:highlight_state()
   local str_navbartitle = ""
-  local str_guard_state = self:navbarTitle(scripts.ui.states_window_nav_states.guard_state)
+  local str_guard_state = self:print_guard(scripts.ui.states_window_nav_states.guard_state)
 
   str_navbartitle = "ZAS " .. str_guard_state
 
